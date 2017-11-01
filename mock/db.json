@@ -1,0 +1,32 @@
+/**
+ * 接口描述db.json
+ *
+ * @url /posts
+ *
+ * GET: 请求方法及参数
+ *   uid 这是请求的用户ID
+ *
+ * 参数描述和其他说明。
+ * uid: 用户ID
+ * name: 用户名
+ * email: 邮箱
+ * 等等其他描述.
+ */
+
+{
+  "posts": {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

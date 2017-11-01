@@ -1,0 +1,26 @@
+/**
+ * 接口描述data.json
+ *
+ * @url /api-access-path
+ *
+ * GET: 请求方法及参数
+ *   uid 这是请求的用户ID
+ *
+ * 参数描述和其他说明。
+ * uid: 用户ID
+ * name: 用户名
+ * email: 邮箱
+ * 等等其他描述.
+ */
+
+{
+  "status": "S",
+  "data": "asdfasdfasdf",
+  "result|5": [
+    {
+      "uid|+1": 1,
+      "name": "@cname",
+      "email": "@email"
+    }
+  ]
+}
